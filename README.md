@@ -8,7 +8,7 @@ Context: MathOverflow question [Minimum number of common edges of triangulations
 
 - `certificates/nNN.json`: the points (`points`, integer coordinates) and the edges of the two triangulations (`A` and `B`, as pairs of point indices). Each triangulation has 3n - 8 edges, and the two share exactly the five hull edges.
 - `figures/nNN.png`: both triangulations drawn for each n; `figures/insertion_step.png`: the step from n to n + 1.
-- `paper/`: a draft write-up of 30 September 2026. It has not been refereed, and a revised version is in preparation.
+- `paper/`: the write-up as it stood on 30 September 2026, when the answer was posted. It has not been refereed. The current version, which also settles every hull size, is in [jvvk/mathematics/two-triangulations-hull](https://github.com/jvvk/mathematics/tree/main/two-triangulations-hull), with the exact checker and the Lean formalisation.
 
 Claude Opus 5.5 and Claude Fable 5.1 (Anthropic) were used to search for examples, write and run the verification code, develop and check the proofs, and draft the paper. The author has checked the argument.
 
